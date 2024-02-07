@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Style Changer</title>
+<style>
+  .container {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(12, 12, 12);
+    margin: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container" id="container"></div>
+
+<label for="colorSelect">Color:</label>
+<select id="colorSelect">
+  <option value="red">Red</option>
+  <option value="green">Green</option>
+  <option value="blue">Blue</option>
+</select>
+
+<label for="widthSelect">Width:</label>
+<select id="widthSelect">
+  <option value="100px">100px</option>
+  <option value="200px">200px</option>
+  <option value="300px">300px</option>
+</select>
+
+<label for="heightSelect">Height:</label>
+<select id="heightSelect">
+  <option value="100px">100px</option>
+  <option value="200px">200px</option>
+  <option value="300px">300px</option>
+</select>
+
+<button id="setButton">Set</button>
+
+<script src="script.js"></script>
+</body>
+</html>
